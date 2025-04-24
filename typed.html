@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        div {
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+        }
+
+        span {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div>I'm a <span class="tped"></span> </div>
+
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <!-- <script>
+    var typed = new Typed('.typed', {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 50,
+      backspeed: 50,
+      loop: true
+    });
+  </script> -->
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+     var typed = new Typed(".tped",{
+        strings: ["mohammad husain","progemmer","web developer","python developer"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+        backDelay: 2000,
+     })
+    </script>
+</body>
+
+</html>
